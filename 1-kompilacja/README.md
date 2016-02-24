@@ -1,4 +1,5 @@
 # 0. IDE
+
 Polecam Netbeans dla C/C++: https://netbeans.org/downloads/index.html
 
 Można również używać Code::Blocks.
@@ -51,8 +52,10 @@ odwrotnej kolejności.
 Rozmiar wejścia nie przekroczy 100000 znaków.
 
 Np:
+
 Wejście:
 "abc"
+
 Wyjście:
 "cba"
 
@@ -60,10 +63,12 @@ Wyjście:
 Napisz program, który wczyta z wejścia liczbę n i zwróci n-tą wartość Fibonacciego
 
 Definicja ciągu Fibonacciego:
-f(0) = 0, f(1) = 1, f(n+1) = f(n) + f(n-1)
+f(0) = 0, f(1) = 1, f(n+1) = f(n) + f(n-1)]
 
 Np:
+
 Wejście:
 3
+
 Wyjście:
 2
