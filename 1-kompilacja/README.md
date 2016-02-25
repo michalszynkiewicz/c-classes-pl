@@ -15,7 +15,7 @@ Tworzy plik a.out, który można uruchomić wywołując `./a.out`
 ## Flagi
 Będziemy używać następujących flag kompilacji:
 ```bash
-gcc -Wall -ansi -pedantic -o wyjscie`
+gcc -Wall -ansi -pedantic -o wyjscie
 ```
 
 * `-Wall` - wypisuje więcej uwag kompilatora
