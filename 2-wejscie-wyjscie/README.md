@@ -1,4 +1,5 @@
 # 1. Wspólne zadanie
+
 Napisać program, który wczyta ze standardowego wejścia liczbę całkowitą `a` i liczbę zmiennoprzecinkową `b` i wypisze iloczyn tych liczb w trzech formach:
 * część całowitą iloczynu
 * dokładny iloczyn w notacji naukowej
@@ -12,7 +13,16 @@ Napisać program, który wczyta ze standardowego wejścia liczbę całkowitą `a
 
 Napisz program, który wczyta liczbę zapisaną ósemkowo i wypisze ją w zapisie dziesiętnym
 
-# B XML
+## B Liczba bitów
+
+Napisz program, który wczyta ze standardowego wejścia liczbę całkowitą i wypisze liczbę jedynek w jej rozwinięciu bitowym.
+
+Do rozwiązania tego zadania należy użyć operatorów bitowych (np `<<`, `>>`, `|`, `&`)
+
+Np dla wejścia `5` wypisze: `2` (5 = (101)<sub>2</sub>)
+
+
+## C XML
 
 Napisz program, który w XLM-owym dokumencie wczytanym ze standardowego wejścia znajdzie wszystkie wystąpienia elementu `<height>` i wypisze jego wartość.
 
@@ -55,7 +65,7 @@ Wypisze:
 1
 ```
 
-# C (B*)
+## D
 
 Zmień powyższy program tak, aby:
 1. działał również dla elementów, które oprócz wartości mają jakieś atrybuty
@@ -86,3 +96,16 @@ Wypisze:
 Benjamin
 Droopy
 ```
+
+# Zadanie domowe
+Napisz program, który wczyta ze standardowego wejścia liczbę `n`, a następnie narysuje choinkę o `n` poziomach (patrz przykład poniżej).
+
+    Wejście: 4
+
+    Wyjście:
+
+       *
+      ***
+     *****
+    *******
+       #
