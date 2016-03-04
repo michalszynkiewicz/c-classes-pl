@@ -19,7 +19,7 @@ Napisz program, który wczyta ze standardowego wejścia liczbę całkowitą i wy
 
 Do rozwiązania tego zadania należy użyć operatorów bitowych (np `<<`, `>>`, `|`, `&`)
 
-Np dla wejścia `5` wypisze: `2` (5 = (101)<sub>2</sub>)
+Np dla wejścia `5` wypisze: `2`, bo (5 = (101)<sub>2</sub>)
 
 
 ## C XML
