@@ -46,7 +46,7 @@ Np dla wejścia:
 
 `1 2 5 8 -1 3 2 4 5`
 
-Wejście będzie zakończone znakiem końca pliku (w linuksie można podać przez Ctrl+D, można również wczytać dane z pliku przez: `./mójprogram < plik_wejściowy'
+Wejście będzie zakończone znakiem końca pliku (w linuksie można podać przez Ctrl+D, można również wczytać dane z pliku przez: `./mójprogram < plik_wejściowy`
 
 Wypisze:
 ```
