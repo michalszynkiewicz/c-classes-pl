@@ -7,7 +7,7 @@
 ```c
 #include <stdio.h>
 
-int main {
+int main(){
   /* tu zadeklaruj zmienne */
 
   scanf("%d", &n);
