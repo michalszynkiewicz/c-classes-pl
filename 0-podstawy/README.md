@@ -12,7 +12,7 @@ int main(){
 
   scanf("%d", &n);
   for (i = 1; i<=n; i++) {
-    suma = suma + i;
+    suma = /* tu wstaw odpowiednie wyrażenie */;
   }
   printf("suma liczb to: %d.\n", /* tu wstaw odpowiednią zmienną */);
 
