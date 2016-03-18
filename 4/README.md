@@ -38,8 +38,9 @@ Wyjście:
 Kolejność liczb na wyjściu jest dowolna.
 
 ## 3 Dwa składniki o zadanej sumie*
-Napisz program działający jak 2., z tą różnicą, że zadany ciąg musi być posortowany rosnąco. Program ma działać w czasie liniowym.
+Napisz program, który dla zadanej liczby *n* i **rosnącego** ciągu liczb *a<sub>0</sub>, a<sub>1</sub> ,... ,a<sub>t</sub>* znajdzie dwa elementy *a<sub>i</sub>, a<sub>j</sub>* takie, że *a<sub>i</sub> + a<sub>j</sub> = n*.
 
+Wejście programu ma być takie jak w *2*, z tą różnicą, że ciąg jest posortowany.
 
 # Zadanie domowe
 Napisz program, który wczyta tekst ze standardowego wejścia i zliczy występujące w nim litery.
