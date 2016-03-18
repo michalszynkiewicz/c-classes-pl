@@ -11,10 +11,10 @@ int main(){
   /* tu zadeklaruj zmienne */
 
   scanf("%d", &n);
-  for (i = 1; i<n; i++) {
+  for (i = 1; i<=n; i++) {
     suma = suma + i;
   }
-  printf("suma liczb to: %d.\n", /* tu wstaw odpowiednią zmienną */)
+  printf("suma liczb to: %d.\n", /* tu wstaw odpowiednią zmienną */);
 
   return 0;
 }
