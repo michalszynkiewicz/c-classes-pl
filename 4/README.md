@@ -68,3 +68,5 @@ h:0
 i:0
 ...
 ```
+
+**Uwaga** Jeśli trudno Ci zrobić wczytywanie do końca pliku, możesz ustalić dowolny znak jako koniec wyjścia i na nim zakończyć wczytywanie.
