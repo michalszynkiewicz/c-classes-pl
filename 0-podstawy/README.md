@@ -24,3 +24,5 @@ int main(){
 **3**. Zmień powyższy program tak, żeby obliczał *n!* (iloczyn elemtnów od *1* do *n*)
 
 **4**. Napisz program, który wczyta dwie liczby *a* i *b* i wypisze ich sumę (*a+b*).
+
+**5**. Zadania na pętle: http://www.cs.put.poznan.pl/arybarczyk/7.pdf
