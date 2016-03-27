@@ -26,3 +26,13 @@ int main(){
 **4**. Napisz program, który wczyta dwie liczby *a* i *b* i wypisze ich sumę (*a+b*).
 
 **5**. Zadania na pętle: http://www.cs.put.poznan.pl/arybarczyk/7.pdf
+
+**6** Napisz program, który wczyta liczbę od użytkownika i wpisze TAK jeśli jest pierwszą,  nie w p.p.
+
+**7** Napisz program, który w pętli wczyta liczbę `n` i:
+- jeśli jest pierwszą - zakończy się 
+- jeśli jest złożoną - wczytać nastepna liczbę i sprawdzi czy jest pierwszą. 
+Program powinien działać dopóki użytkownik nie wprowadzi liczby pierwszej.
+
+*hint 1* utwórz funkcję sprawdzająca czy liczba jest pierwsza korzystając z rozwiązania zad. 7.
+*hint 2* wykorzystaj petle do-while
