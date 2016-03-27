@@ -34,6 +34,6 @@ int main(){
 - jeśli jest złożoną - wczytać nastepna liczbę i sprawdzi czy jest pierwszą. 
 Program powinien działać dopóki użytkownik nie wprowadzi liczby pierwszej.
 
-*wskazówka 1* utwórz funkcję sprawdzająca czy liczba jest pierwsza korzystając z rozwiązania zad. 7.
+*wskazówka 1* utwórz funkcję sprawdzająca czy liczba jest pierwsza korzystając z rozwiązania zad. 6.
 
 *wskazówka 2* wykorzystaj petle do-while
