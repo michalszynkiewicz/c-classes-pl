@@ -78,4 +78,4 @@ Napisz program, który sprawdzi czy jest słowo jest *palindromem*.
 
 Program powinien wczytać jedno słowo ze standardowego wejścia i wypisać `TAK` jeśli jest ono palindromem, `NIE` w przeciwnym przypadku.
 
-**Palindrom** to słowo, które czytane od lewej strony jest takie samo jak czytane od prawej (jest symetryczne), np *ADA*, *PKP, *POTOP*, *RADAR*.
+**Palindrom** to słowo, które czytane od lewej strony jest takie samo jak czytane od prawej (jest symetryczne), np *ADA*, *PKP*, *POTOP*, *RADAR*.
