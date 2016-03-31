@@ -73,9 +73,9 @@ Sposób działania algorytmu:
 Dokładniejszy opis algorytmu: https://pl.wikipedia.org/wiki/Sortowanie_przez_scalanie
 
 
-# 2. Zadanie domowe: *Palindromy*
+# 2. Zadanie domowe: Palindromy
 Napisz program, który sprawdzi czy jest słowo jest *palindromem*.
 
 Program powinien wczytać jedno słowo ze standardowego wejścia i wypisać `TAK` jeśli jest ono palindromem, `NIE` w przeciwnym przypadku.
 
-**Palindrom** to słowo, które czytane od lewej strony stanowi taki sam ciąg liter jak czytany od prawej strony (jest symetryczne), np *ADA*, *PKP, *POTOP*, *RADAR*.
+**Palindrom** to słowo, które czytane od lewej strony jest takie samo jak czytane od prawej (jest symetryczne), np *ADA*, *PKP, *POTOP*, *RADAR*.
