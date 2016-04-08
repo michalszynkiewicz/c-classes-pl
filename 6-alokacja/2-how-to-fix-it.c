@@ -8,7 +8,6 @@ void doSomeWork() {
         exit(1);
     }
     smallArray[0] = 12;
-    free(smallArray);
 }
 
 int main() {
