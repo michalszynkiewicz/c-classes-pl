@@ -73,6 +73,9 @@ int main(){
 ```
 
 
+# Tekst - c.d.
+Napisz program rozwiązujący zadanie https://www.mat.umk.pl:8070/ZawodyWeb/problem/4084/parentheses-balance.html
+
 
 # * Makefile
 Sposób na organizację kompilacji projektów: http://www.programuj.com/artykuly/linux/makefile.php
