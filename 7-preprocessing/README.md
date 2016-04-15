@@ -70,6 +70,7 @@ Np poniższy program powinien wypisać elementy tablicy arr:
 ```c
 int main(){
   int arr[] = {1,7,3};
+  int x;
   foreach(x, arr) printf("%d ", x);
   return 0;
 }
