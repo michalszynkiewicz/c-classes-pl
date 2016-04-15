@@ -56,6 +56,9 @@ Co zrobić, aby móc w program.c załączyć co następuje?
 ```
 
 ### 4. Makra
+
+**UWAGA** do kompilacji tego zadania zamiast flagi -ansi użyj -std=c99
+
 Zediniuj makra:
 
 1. `max` znajdujące maksimum dwóch liczb
