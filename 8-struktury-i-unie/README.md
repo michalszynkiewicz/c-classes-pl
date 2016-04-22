@@ -29,6 +29,8 @@ Zaimplementuj metody:
 # Zadania domowe (**UWAGA** są dwa!):
 
 ## LinkedList
+Dokończ implementację LinkedList z zajęć. Popraw implementację metody remove. (0.5pkt)
+
 Rozwiń rozwiązanie zadania LinkedList dodając metody:
 
 1. `size` zwracającą rozmiar listy (0.5 pkt)
