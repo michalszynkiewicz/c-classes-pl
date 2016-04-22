@@ -8,7 +8,7 @@ Napisz program, który wczyta z wejścia liczbę całkowitą bez znaku (unsigned
 
 Uruchom program lokalnie i sprawdź jak liczby są reprezentowane w bajtach.
 
-Zaloguj się na netra1 (np `ssh *login*@netra1`). Utwórz własny katalog w /tmp/progc/. Do katalogu skopiuj kod źródłowy programu. Skompiluj i uruchom program na netrze. Porównaj wyniki z lokalnymi.
+Zaloguj się na netra1 (np `ssh *login*@netra1`). Utwórz własny katalog w /tmp/. Do katalogu skopiuj kod źródłowy programu. Skompiluj i uruchom program na netrze. Porównaj wyniki z lokalnymi.
 
 
 ## LinkedList
