@@ -1,4 +1,4 @@
-# Struktury, unie, enumeracje
+# Struktury, unie
 https://en.wikipedia.org/wiki/Union_type
 http://www.tutorialspoint.com/cprogramming/c_unions.htm
 https://en.wikipedia.org/wiki/Struct_(C_programming_language)
