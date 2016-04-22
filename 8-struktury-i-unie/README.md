@@ -31,8 +31,8 @@ Zaimplementuj metody:
 ## LinkedList
 Rozwiń rozwiązanie zadania LinkedList dodając metody:
 
-1. zwracającą rozmiar listy (0.5 pkt)
-2. tworzącą odwróconą listę (0.5 pkt)
+1. `size` zwracającą rozmiar listy (0.5 pkt)
+2. `reversed` tworzącą odwróconą listę (0.5 pkt)
 
 ## #define arraycpy
 Napisz makro `arraycpy(source, target, length)`, które przepisze zawartość tablicy source do tablicy target. Załóż, że tablica target jest już zainicjalizowana.
