@@ -1,5 +1,7 @@
 # Struktury, unie, enumeracje
-https://pl.wikibooks.org/wiki/C/Typy_z%C5%82o%C5%BCone
+https://en.wikipedia.org/wiki/Union_type
+http://www.tutorialspoint.com/cprogramming/c_unions.htm
+https://en.wikipedia.org/wiki/Struct_(C_programming_language)
 
 # Zadania
 
