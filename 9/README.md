@@ -50,3 +50,23 @@ Wyjście to:
 Dla tej samej reprezentacji grafu napisz wypisywanie wierzchołków w kolejności odwiedzania przez algorytm BFS
 
 https://pl.wikipedia.org/wiki/Przeszukiwanie_wszerz
+
+# Zadanie: punkty współliniowe
+Napisz program, który wczyta ze standardowego wejścia współrzędne 3 punktów i zwróci `TAK` jeśli leżą one na tej samej proste i `NIE` w przeciwnym przypadku.
+
+Przykładowe wejście:
+```
+1 3
+2 6
+3 9
+```
+
+Wyjście dla w/w wejścia:
+```
+TAK
+```
+
+*Wskazówka*
+Możesz np obliczyć współczynniki kierunkowe prostych przebiegających przez punkty A i B oraz A i C i je porównać
+
+**Pamiętaj**, jeśli masz problem z rozwiązaniem zadania, pisz!
