@@ -20,15 +20,13 @@ Zaimplementuj metody (1 pkt za każdą):
 
 Wyważanie drzewa: 2 pkt (AVL lub czerwono-czarne).
 
-# Miejsce zerowe  (5 punktów)
+# Miejsce zerowe  (3 punkty)
 Napisz program, który wczyta funkcję zmiennej `x` i znajdzie jej miejsce zerowe metodą bisekcji.
 
-W wyrażeniu dozwolone są:
-- dwuargumentowe: `+`, `-`, `*`, `/`, `^` (`^` - potęgowanie)
-- jednoargumentowe: `sin`, `cos`
+W wyrażeniu dozwolone `+`, `-`, `*`, `/`
 
 Pierwsza linia wejścia zawierać będzie funkcję, np:
-`x^2 + sin(x)`
+`x*x + 1/x`
 
 Druga linia będzie zawierała 3 liczby zmiennoprzecinkowe: *a*, *b*, *epsilon*.
 
@@ -38,4 +36,7 @@ To jest znaleźć takie *x<sub>0</sub> &isin; [a, b]* takie, że
 
 *|f(x<sub>0</sub>)| < epsilon*
 
-Za rozwiązanie zadania bez `sin`, `cos` i `^` można otrzymać 3 punkty.
+## Rozwinięcie (dodatkowe 2 pkt)
+Dodaj obsługę `^` - potęgowanie oraz jednoargumentowe: `sin`, `cos` (działające na radianach), np
+
+```2^x + sin(x)```
