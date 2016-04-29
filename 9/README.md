@@ -43,7 +43,7 @@ Np dla wejścia:
 
 Wyjście to:
 ```
-2 0
+0 2
 ```
 
 ## BFS
