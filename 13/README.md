@@ -1,6 +1,6 @@
 # Zadania
 
-## Stos
+## 1 Stos
 Zaimplementuj stos.
 
 Na jego podstawie napisz program, który będzie wczytywał polecenia postaci:
@@ -15,7 +15,7 @@ Oprzyj implementację na tablicy o stałej wielkości.
 Dynamicznie przydziel pamięć dla stosu.
 
 
-## Pochodna
+## 2 Pochodna
 Napisz program, który obliczy wartość pochodnej wielomianu w danym punkcie.
 
 Pierwszy wiersz zawiera liczbę zmiennoprzecinkową *x* - zmienną, dla której liczymy wartośc pochodnej,
@@ -39,7 +39,7 @@ Wyjście:
 ```
 
 
-## Wypukłe wielokąty
+## 3 Wypukłe wielokąty
 Napisz program sprawdzający czy dany wielokąt jest wypukły.
 
 Pierwsza linia będzie zawierać liczbę *n ≥ 3* - liczbę kątów wielokąta.
