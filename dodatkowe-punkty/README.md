@@ -32,7 +32,7 @@ Druga linia będzie zawierała 3 liczby zmiennoprzecinkowe: *a*, *b*, *epsilon*.
 
 Program ma znaleźć miejsce zerowe funkcji w przedziale *<a, b>* z dokładnością do *epsilon*.
 
-To jest znaleźć takie *x<sub>0</sub> &isin; [a, b]* takie, że
+To jest znaleźć *x<sub>0</sub> &isin; [a, b]* takie, że
 
 *|f(x<sub>0</sub>)| < epsilon*
 
