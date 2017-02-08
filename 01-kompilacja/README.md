@@ -43,7 +43,7 @@ Funkcja `main` programu napisanego w C może mieć nagłówek:
 int main(int argc, char *argv[])
 ```
 Napisz program, który wypisze swoją nazwę na standardowe wyjście.
-Nazwa programu jest zerowym elementem funkcji argv.
+Nazwa programu jest zerowym elementem tablicy argv.
 
 
 ## B
