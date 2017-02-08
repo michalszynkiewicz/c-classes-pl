@@ -15,7 +15,9 @@ Można również oddać zadanie **tydzień później**. W takim wypadku do zdoby
 
 Ok. 50% punktów będzie do zdobycia za zadania domowe, reszta za kolokwium.
 
-Do zaliczenia (na 3) będzie trzeba zdobyć łącznie powyżej 50% punktów.
+Do zaliczenia (na 3) będzie trzeba:
+- zdobyć co najmniej 40% punktów z kolokwium
+- zdobyć łącznie powyżej 50% punktów
 
 
 Dodatkowo, jeśli komuś brakuje punktów do zaliczenia bądź do wymarzonej oceny, może rozwiązać zadania dodatkowe, z katalogu *dodatkowe-punkty*.
