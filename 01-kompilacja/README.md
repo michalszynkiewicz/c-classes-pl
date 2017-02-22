@@ -1,6 +1,6 @@
 # 0. IDE
 
-Polecam Netbeans dla C/C++: https://netbeans.org/downloads/index.html
+Polecam CLion: https://www.jetbrains.com/clion/download/
 
 Można również używać Code::Blocks.
 
@@ -15,7 +15,7 @@ Tworzy plik a.out, który można uruchomić wywołując `./a.out`
 ## Flagi
 Będziemy używać następujących flag kompilacji:
 ```bash
-gcc -Wall -ansi -pedantic -o wyjscie
+gcc -Wall -ansi -pedantic -o nazwa_programu kod_zrodlowy.c
 ```
 
 * `-Wall` - wypisuje więcej uwag kompilatora
