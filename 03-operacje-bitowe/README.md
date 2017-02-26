@@ -17,7 +17,16 @@ Wejście: `10`
 
 Wyjście: `1024`
 
-## B Pierwsza czy złożona
+
+## B Liczba bitów
+
+Napisz program, który wczyta ze standardowego wejścia liczbę całkowitą i wypisze liczbę jedynek w jej rozwinięciu bitowym.
+
+Do rozwiązania tego zadania należy użyć operatorów bitowych (np `<<`, `>>`, `|`, `&`)
+
+Np dla wejścia `5` wypisze: `2`, bo (5 = (101)<sub>2</sub>)
+
+## C Pierwsza czy złożona
 Wczytaj liczbę `n` i wypisz `pierwsza` jeśli jest liczbą pierwszą lub najmniejszy z jej dzielników jeśli jest liczbą złożoną.
 
 Np.
@@ -26,7 +35,7 @@ Wejście: `225`
 
 Wyjście: `3`
 
-## C Krawężnik
+## D Krawężnik
 Na ile sposobów można ułożyć krawężnik długości `n` z bloków długości `2`, `3` i `5`?
 Napisz program, który wczyta `n` i wypisze liczbę sposobów modulo `10`<sup>`9`</sup>
 

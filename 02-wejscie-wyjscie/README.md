@@ -11,15 +11,21 @@ Napisać program, który wczyta ze standardowego wejścia liczbę całkowitą `a
 
 ## A Konwersja
 
-Napisz program, który wczyta liczbę zapisaną ósemkowo i wypisze ją w zapisie dziesiętnym
+Napisz program, który wczyta liczbę zapisaną ósemkowo i wypisze ją w zapisie dziesiętnym.
 
-## B Liczba bitów
+## B Choinka
 
-Napisz program, który wczyta ze standardowego wejścia liczbę całkowitą i wypisze liczbę jedynek w jej rozwinięciu bitowym.
+Napisz program, który wczyta ze standardowego wejścia liczbę `n`, a następnie narysuje choinkę o `n` poziomach (patrz przykład poniżej).
 
-Do rozwiązania tego zadania należy użyć operatorów bitowych (np `<<`, `>>`, `|`, `&`)
+    Wejście: 4
 
-Np dla wejścia `5` wypisze: `2`, bo (5 = (101)<sub>2</sub>)
+    Wyjście:
+
+       *
+      ***
+     *****
+    *******
+       #
 
 
 ## C XML
@@ -98,14 +104,3 @@ Droopy
 ```
 
 # Zadanie domowe
-Napisz program, który wczyta ze standardowego wejścia liczbę `n`, a następnie narysuje choinkę o `n` poziomach (patrz przykład poniżej).
-
-    Wejście: 4
-
-    Wyjście:
-
-       *
-      ***
-     *****
-    *******
-       #
