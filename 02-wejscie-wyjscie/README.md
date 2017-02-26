@@ -30,7 +30,7 @@ Napisz program, który w XLM-owym dokumencie wczytanym ze standardowego wejścia
 * tag otwierający, wartość elementu i tag zamykający są w jednej linii
 * tag zawiera tylko nazwę elementu (nie zawiera atrybutów i białych znaków)
 
-Do wyszukiwania mozna użyć metody `strstr` ze `string.h`: http://www.cplusplus.com/reference/cstring/strstr/
+Do wyszukiwania możesz użyć metody `strstr` ze `string.h`: http://www.cplusplus.com/reference/cstring/strstr/
 
 Dokumenty XML mają następującą postać:
 
