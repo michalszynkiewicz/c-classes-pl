@@ -103,4 +103,46 @@ Benjamin
 Droopy
 ```
 
-# Zadanie domowe
+# Zadanie domowe - sortowanie
+Napisz program, który wczyta ze standardowego wejścia:
+ - liczby naturalne `n` &le; 100000 i `k`
+ - ciąg liczb całkowitych, które mogą być podane szestnastkowo, dziesiątkowo, ósemkowo.
+
+i wypisze na ekran:
+ - `k`-ty co do wielkości element ciągu, jeśli `k` &le; `n`
+ - "BŁĄD: ciąg liczy tylko <wartość liczby `n`> elementów", w przeciwnym przypadku
+
+Długość ciągu nie będzie przekraczała 100000 elementów.
+
+Np.
+Dla wejścia:
+```
+5 3
+12 0x43 84 9 020
+```
+Wyjście:
+```
+16
+```
+
+
+Dla wejścia:
+```
+10 1
+100 200 132 4234 45 234 45 23 345 1000
+```
+Wyjście:
+```
+23
+```
+
+
+Dla wejścia:
+```
+10 11
+100 200 132 4234 45 234 45 23 345 1000
+```
+Wyjście:
+```
+BŁĄD: ciąg liczy tylko 10 elementów
+```
