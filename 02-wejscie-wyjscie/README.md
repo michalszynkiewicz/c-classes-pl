@@ -106,7 +106,7 @@ Droopy
 # Zadanie domowe - sortowanie
 Napisz program, który wczyta ze standardowego wejścia:
  - liczby naturalne `n` &le; 100000 i `k`
- - ciąg liczb całkowitych, które mogą być podane szestnastkowo, dziesiątkowo, ósemkowo.
+ - ciąg `n` liczb całkowitych, które mogą być podane szestnastkowo, dziesiątkowo, ósemkowo.
 
 i wypisze na ekran:
  - `k`-ty co do wielkości element ciągu, jeśli `k` &le; `n`
