@@ -103,7 +103,7 @@ Benjamin
 Droopy
 ```
 
-# Zadanie domowe - sortowanie
+# Zadanie domowe - k-ty element
 Napisz program, który wczyta ze standardowego wejścia:
  - liczby naturalne `n` &le; 100000 i `k`
  - ciąg `n` liczb całkowitych, które mogą być podane szestnastkowo, dziesiątkowo, ósemkowo.
@@ -113,6 +113,8 @@ i wypisze na ekran:
  - "BŁĄD: ciąg liczy tylko <wartość liczby `n`> elementów", w przeciwnym przypadku
 
 Długość ciągu nie będzie przekraczała 100000 elementów.
+
+**Wskazówka:** możesz użyć funkcji `qsort`: https://en.wikipedia.org/wiki/Qsort
 
 Np.
 Dla wejścia:
