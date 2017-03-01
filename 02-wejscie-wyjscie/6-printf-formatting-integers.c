@@ -7,5 +7,6 @@ int main() {
 
 	printf("%+05d\n", 12); 	/* "+0012"	+ - dodaje znak, 0 - uzupełnij zerami, 5 - wypisz co najmniej pięć znaków */
 	printf("%-5d\n", 12);	/* "12   "	- - wyrównaj do lewej, 5 - co najmniej 5 znaków */
+	printf("%5d\n", 12);	/* "   12"	- powyższe z wyrównaniem do prawej */
 	return 0;
 }
