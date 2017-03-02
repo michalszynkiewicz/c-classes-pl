@@ -109,7 +109,7 @@ Napisz program, który wczyta ze standardowego wejścia:
  - ciąg `n` liczb całkowitych, które mogą być podane szestnastkowo, dziesiątkowo, ósemkowo.
 
 i wypisze na ekran:
- - `k`-ty co do wielkości element ciągu, jeśli `k` &le; `n`
+ - `k`-ty najmniejszy element ciągu, jeśli `k` &le; `n`
  - "BŁĄD: ciąg liczy tylko <wartość liczby `n`> elementów", w przeciwnym przypadku
 
 Długość ciągu nie będzie przekraczała 100000 elementów.
