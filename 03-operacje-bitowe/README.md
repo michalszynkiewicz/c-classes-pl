@@ -10,7 +10,7 @@ Napisać program, który będzie wczytywał ze standardowego wejścia polecenia:
 
 # 2. Zadania
 ## A Potęgowanie
-Wczytaj ze standardoweg wejścia `n` i wypisz `2`<sup>`n`</sup>
+Wczytaj ze standardowego wejścia `n` i wypisz `2`<sup>`n`</sup>
 Np.:
 
 Wejście: `10`
