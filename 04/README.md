@@ -45,7 +45,7 @@ Wejście programu ma być takie jak w *2*, z tą różnicą, że ciąg jest poso
 Program powinien działac szybciej niż dla ogólnego przypadku.
 
 # Zadanie domowe
-Napisz program, który wczyta tekst ze standardowego wejścia i zliczy występujące w nim litery.
+Napisz program, który wczyta tekst ze standardowego wejścia i zliczy występujące w nim cyfry.
 Program powinien ignorować wszystkie inne znaki i zakończyć wczytywanie w momencie napotkania znaku końca pliku.
 
 Wejście:
@@ -53,20 +53,20 @@ Wejście:
 a--00aas
 
 
-df   gaa.
+df   34gaa53asdf.
 ```
 
 Wyjście:
 ```
-a:5
-b:0
-c:0
-d:1
-f:1
-g:1
-h:0
-i:0
+0:2
+1:0
+2:0
+3:2
+4:1
+5:1
+6:0
+7:0
+8:0
+9:0
 ...
 ```
-
-**Uwaga** Jeśli trudno Ci zrobić wczytywanie do końca pliku, możesz ustalić dowolny znak jako koniec wyjścia i na nim zakończyć wczytywanie.
