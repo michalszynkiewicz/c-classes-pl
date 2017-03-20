@@ -1,4 +1,4 @@
-# 0. Rozwiązanie zadania domowego *choinka*
+# 0. Rozwiązanie zadania domowego *k-ty element*
 
 # 1. Zadania
 
