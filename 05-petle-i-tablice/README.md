@@ -18,7 +18,7 @@ Da wyjście:
 
 Napisz program, który wczyta ze standardowego wejścia: skalar, wymiary macierzy, macierz, a następnie wypisze iloczyn macierzy przez skalar.
 
-Macierz można reprezentować jako tablicę tablic.
+Macierz można reprezentować jako tablicę tablic (ale nie trzeba!). Można założyć, że wymiary tablicy nie będą przekraczały 10000x10000.
 
 Np:
 
@@ -41,6 +41,8 @@ Wyjście:
 
 Napisz program, który wczyta: wymiar macierzy i dwie macierze ze standardowego wejścia i wypisze iloczyn wczytanych macierzy.
 
+Podobnie jak w zadaniu C, można założyć górne ograniczenie na wymiary macierzy.
+
 Np:
 
 Wejście:
@@ -58,7 +60,7 @@ Wyjście:
 4 3
 ```
 
-## D* Mergesort
+## D Mergesort
 
 Zaimplementuj sortowanie tablicy algorytmem *mergesort*. Możesz założyć, że rozmiar tablicy jest potęgą dwójki i że nie będzie przekraczał 2048.
 
