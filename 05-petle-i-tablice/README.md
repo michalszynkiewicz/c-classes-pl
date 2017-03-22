@@ -18,7 +18,7 @@ Da wyjście:
 
 Napisz program, który wczyta ze standardowego wejścia: skalar, wymiary macierzy, macierz, a następnie wypisze iloczyn macierzy przez skalar.
 
-Macierz można reprezentować jako tablicę tablic (ale nie trzeba!). Można założyć, że wymiary tablicy nie będą przekraczały 10000x10000.
+Macierz można reprezentować jako tablicę tablic (ale nie trzeba!). Można założyć, że wymiary tablicy nie będą przekraczały 1000x1000.
 
 Np:
 
