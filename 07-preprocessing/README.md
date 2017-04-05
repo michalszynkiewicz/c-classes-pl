@@ -1,25 +1,30 @@
 # Omówienie zadania domowego z zajęć 4.
 
-Napisz program, który wczyta tekst ze standardowego wejścia i zliczy występujące w nim litery. Program powinien ignorować wszystkie inne znaki i zakończyć wczytywanie w momencie napotkania znaku końca pliku.
+Napisz program, który wczyta tekst ze standardowego wejścia i zliczy występujące w nim cyfry.
+Program powinien ignorować wszystkie inne znaki i zakończyć wczytywanie w momencie napotkania znaku końca pliku.
 
 Wejście:
-
+```
 a--00aas
 
 
-df   gaa.
-Wyjście:
+df   34gaa53asdf.
+```
 
-a:5
-b:0
-c:0
-d:1
-f:1
-g:1
-h:0
-i:0
+Wyjście:
+```
+0:2
+1:0
+2:0
+3:2
+4:1
+5:1
+6:0
+7:0
+8:0
+9:0
 ...
-Uwaga Jeśli trudno Ci zrobić wczytywanie do końca pliku, możesz ustalić dowolny znak jako koniec wyjścia i na nim zakończyć wczytywanie.
+```
 
 
 # Dyrektywy preprocesora
@@ -67,33 +72,55 @@ Zediniuj makra:
 
 1. `foreach(x, arr)` które wywołuje następujący po nim blok kodu dla każdego elementu tablicy.
 Np poniższy program powinien wypisać elementy tablicy arr:
+
 ```c
-int main(){
-  int arr[] = {1,7,3};
-  int x;
-  foreach(x, arr) printf("%d ", x);
-  return 0;
+#include <stdio.h>
+#include <limits.h>
+
+/* tu zdefiniuj makra */
+
+int main() {
+        int arr[] = {1,7,4};
+        int x, maximum = INT_MIN;
+        foreach(x, arr) printf("%d\n", x);
+        foreach(x, arr) maximum = max(maximum, x);
+        printf("max: %d\n", maximum);
+
+        return 0;
 }
+
 ```
 
 
 # Tekst - c.d.
-Napisz program rozwiązujący zadanie https://www.mat.umk.pl:8070/ZawodyWeb/problem/4084/parentheses-balance.html
+Napisz program rozwiązujący zadanie https://uva.onlinejudge.org/external/6/673.pdf
 
 
-# * Makefile
-Sposób na organizację kompilacji projektów: http://www.programuj.com/artykuly/linux/makefile.php
+# Zadanie domowe
+## Stos
+Zaimplementuj stos.
 
-## Zadanie
-Utwórz plik Makefile do kompilacji programów utworzonych na zajęciach.
+Na jego podstawie napisz program, który będzie wczytywał polecenia postaci:
 
-
-
-
-
-
+- `push ` *liczba* - wstawia liczbę na czubek stosu
+- `pop` - wypisuje na ekran wartość czubka stosu i usuwa ją ze stosu (przesuwa czubek na poprzednią liczbę)
+- `quit` - kończy działanie programu
 
 
+Np dla wejścia:
+```
+push 10
+push 12
+push 100
+pop
+pop
+quit
+```
+Na wyjściu pojawi się:
+```
+100
+12
+```
 
 
 
