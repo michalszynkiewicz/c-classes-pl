@@ -29,7 +29,8 @@ Wyjście:
 
 # Dyrektywy preprocesora
 https://pl.wikibooks.org/wiki/C/Preprocesor
-http://edu.pjwstk.edu.pl/wyklady/pro/scb/PRG2CPP_files/node14.html
+
+http://edu.pjwstk.edu.pl/wyklady/pro/scb/PRG2CPP_files/node12.html
 
 ## Zadania
 
