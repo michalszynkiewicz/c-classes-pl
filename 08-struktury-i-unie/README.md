@@ -18,12 +18,14 @@ Korzystając ze `struct` i `malloc` zaimplementuj listę dwukierunkową przechow
 
 Element listy powinien zawierać wskaźnik na następny element, wskaźnik na poprzedni element i wartość.
 
-Listę może reprezentować pierwszy z jej elementów.
+Lista powinna być reprezentowana przez wskaźnik na pierwszy i wskaźnik na ostatni element.
 
 Zaimplementuj metody:
-- `add(Lista, int)` dodającą element do listy
-- `remove(Lista, int)` - usuwającą element o danej wartości z listy
-- `print(Lista)` - wypisującą wszystkie wartości
+- `void add(Lista*, int)` dodającą element na koniec listy
+- `void delete(Lista*, int)` - usuwającą element o danej wartości z listy
+- `void print(const Lista*)` - wypisującą wszystkie wartości
+
+Możesz również dodać metode `List* nowaLista()` inicjalizującą pustą listę.
 
 
 # Zadania domowe (**UWAGA** są dwa!):
