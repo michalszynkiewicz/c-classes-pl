@@ -21,11 +21,29 @@ Element listy powinien zawierać wskaźnik na następny element, wskaźnik na po
 Lista powinna być reprezentowana przez wskaźnik na pierwszy i wskaźnik na ostatni element.
 
 Zaimplementuj metody:
-- `void add(Lista*, int)` dodającą element na koniec listy
-- `void delete(Lista*, int)` - usuwającą element o danej wartości z listy
-- `void print(const Lista*)` - wypisującą wszystkie wartości
+- `void dodaj(Lista*, int)` dodającą element na koniec listy
+- `void usun(Lista*, int)` - usuwającą element o danej wartości z listy
+- `void wypisz(const Lista*)` - wypisującą wszystkie wartości
 
 Możesz również dodać metode `List* nowaLista()` inicjalizującą pustą listę.
+
+Uruchom program np z następującymi poleceniami w `main` i zweryfikuj wyniki:
+```c
+        dodaj(l, 3);
+        dodaj(l, 1);
+        dodaj(l, 2);
+        dodaj(l, 11);
+        wypisz(l);
+        add(l, 7);
+        wypisz(l);
+        usun(l, 5);
+        wypisz(l);
+        usun(l, 3);
+        wypisz(l);
+        usun(l, 7);
+        wypisz(l);
+
+```
 
 
 # Zadania domowe (**UWAGA** są dwa!):
