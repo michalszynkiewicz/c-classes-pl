@@ -64,6 +64,9 @@ typedef struct Node {
 } node;
 ```
 
+Drzewo może być reprezentowane jako korzeń (węzeł "włożony" do niego jako pierwszy).
+Do inicjalizacji węzła z zadaną wartością (a zatem i drzewa jednelementowego), możesz napisać metodę `Node* newNode(const char* value)`
+
 Zaimplementuj metody (0.5 pkt za każdą):
 
  - `void add(node *tree, const char* text)` - dodającą węzeł o zadanej wartości do drzewa
@@ -72,8 +75,7 @@ Zaimplementuj metody (0.5 pkt za każdą):
 
 Np dla main:
 ```
-Node *tree = initTree();
-add(tree, "aaa");
+Node *tree = newNode("aaa");
 add(tree, "adfg");
 add(tree, "gf");
 print();
