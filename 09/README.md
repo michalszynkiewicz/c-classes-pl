@@ -1,3 +1,5 @@
+# Kolokwium za 2 tygodnie
+
 # Zadania
 
 ## DFS
@@ -51,22 +53,43 @@ Dla tej samej reprezentacji grafu napisz wypisywanie wierzchołków w kolejnośc
 
 https://pl.wikipedia.org/wiki/Przeszukiwanie_wszerz
 
-# Zadanie: punkty współliniowe
-Napisz program, który wczyta ze standardowego wejścia współrzędne 3 punktów i zwróci `TAK` jeśli leżą one na tej samej proste i `NIE` w przeciwnym przypadku.
+# BFS
+Zaimplementuj drzewo wyszukiwań binarnych dla tekstu
+Węzeł drzewa może mieć postać:
+```c
+typedef struct Node {
+  struct Node* left;
+  struct Node* right;
+  char* value;
+} node;
+```
 
-Przykładowe wejście:
-```
-1 3
-2 6
-3 9
-```
+Zaimplementuj metody (0.5 pkt za każdą):
 
-Wyjście dla w/w wejścia:
+ - `void add(node *tree, const char* text)` - dodającą węzeł o zadanej wartości do drzewa
+ - `void print(node *tree)` - wypisującą wszystkie wartości dodane do drzewa w porządku leksykograficznym
+ - `int contains(node *tree, const char* text)` - zwracającą `1` jeśli wartość jest w drzewie, `0` w p.p.
+
+Np dla main:
 ```
+Node *tree = initTree();
+add(tree, "aaa");
+add(tree, "adfg");
+add(tree, "gf");
+print();
+add(tree, "xvc");
+add(tree, "sdfv");
+printf(contains(tree, "asdf") ? "TAK\n": "NIE\n");
+printf(contains(tree, "adfg") ? "TAK\n": "NIE\n");
+printf(contains(tree, "xvc") ? "TAK\n": "NIE\n");
+print();
+
+```
+Wyjście:
+```
+aaa adfg gf
+NIE
 TAK
+TAK
+aaa adfg gf sdfv xvc 
 ```
-
-*Wskazówka*
-Możesz np obliczyć współczynniki kierunkowe prostych przebiegających przez punkty A i B oraz A i C i je porównać
-
-**Pamiętaj**, jeśli masz problem z rozwiązaniem zadania, pisz!
