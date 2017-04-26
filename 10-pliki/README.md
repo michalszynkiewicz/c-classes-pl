@@ -1,3 +1,5 @@
+# Kolokwium na następnych zajęciach
+
 # Pliki: czytanie i pisanie
 Do otwierania pliku używamy `fopen`: https://pl.wikibooks.org/wiki/C/fopen
 Należy pamiętać żeby zamknąć plik (`fclose`).
