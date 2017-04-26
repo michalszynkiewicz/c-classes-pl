@@ -1,4 +1,4 @@
-# BST
+# ~~BST~~
 Zaimplementuj drzewo wyszukiwań binarnych dla tekstów.
 
 Węzeł drzewa może mieć postać:
