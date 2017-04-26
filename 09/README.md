@@ -78,13 +78,13 @@ Np dla main:
 Node *tree = newNode("aaa");
 add(tree, "adfg");
 add(tree, "gf");
-print();
+print(tree);
 add(tree, "xvc");
 add(tree, "sdfv");
 printf(contains(tree, "asdf") ? "TAK\n": "NIE\n");
 printf(contains(tree, "adfg") ? "TAK\n": "NIE\n");
 printf(contains(tree, "xvc") ? "TAK\n": "NIE\n");
-print();
+print(tree);
 
 ```
 Wyjście:
