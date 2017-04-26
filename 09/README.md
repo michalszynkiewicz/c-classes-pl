@@ -48,6 +48,22 @@ Wyjście to:
 0 2
 ```
 
+A dla wejścia:
+```
+4
+1 1
+1 2
+1 3
+1 0
+```
+Wyjście:
+```
+3
+2
+1
+0
+```
+
 ## BFS
 Dla tej samej reprezentacji grafu napisz wypisywanie wierzchołków w kolejności odwiedzania przez algorytm BFS
 
