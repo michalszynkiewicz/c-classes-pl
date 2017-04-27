@@ -69,7 +69,7 @@ Dla tej samej reprezentacji grafu napisz wypisywanie wierzchołków w kolejnośc
 
 https://pl.wikipedia.org/wiki/Przeszukiwanie_wszerz
 
-# BFS
+# BST
 Zaimplementuj drzewo wyszukiwań binarnych dla tekstu. Powtarzające się wartości powinny być ignorowane (przechowujemy tylko jeden egzemplarz).
 Węzeł drzewa może mieć postać:
 ```c
