@@ -11,7 +11,7 @@ https://pl.wikipedia.org/wiki/Przeszukiwanie_w_g%C5%82%C4%85b
 Struktura reprezentująca wierzchołek grafu może mieć postać:
 ```c
 typedef struct Vertex {
-  struct Vertex* neighbors;
+  struct Vertex** neighbors;
   int neighborsSize;
   int num;
   int visited;
