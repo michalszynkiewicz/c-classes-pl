@@ -45,7 +45,7 @@ Np dla wejścia:
 
 Wyjście to:
 ```
-0 2
+2 0
 ```
 
 A dla wejścia:
