@@ -38,9 +38,6 @@ druga linia
 ```
 a zawartość pliku in.txt powinna być identyczna z out.txt.
 
-# Dodatkowe zadania domowe
-
-Punkty za nie **nie wliczają się** do maksymalnej ilości punktów do zdobycia
 ## simple cp (1 punkt)
 Napisz program kopiujący pliki.
 
@@ -51,6 +48,10 @@ Dla wywołania:
 program ma utworzyć `plik2` i skopiować do niego zawartość `plik1`.
 
 Program ma działać poprawnie również dla plików binarnych.
+
+# Dodatkowe zadanie domowe
+
+Punkty za nie **nie wliczają się** do maksymalnej ilości punktów do zdobycia
 
 ## cp (1 punkt)
 Do w/w programu dodaj zachowywanie uprawnień do pliku.
