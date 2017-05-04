@@ -38,7 +38,7 @@ druga linia
 ```
 a zawartość pliku in.txt powinna być identyczna z out.txt.
 
-## simple cp (1 punkt)
+## simple cp
 Napisz program kopiujący pliki.
 
 Dla wywołania:
