@@ -1,25 +1,3 @@
-# ~~BST~~
-Zaimplementuj drzewo wyszukiwań binarnych dla tekstów.
-
-Węzeł drzewa może mieć postać:
-```c
-typedef struct Node {
-  struct Node* left;
-  struct Node* right;
-  char* value;
-} node;
-```
-
-Zaimplementuj metody (1 pkt za każdą):
-
- - `void add(const char* text)` - dodającą węzeł o zadanej wartości do drzewa
- - `void delete(const char* text)` - usuwającą węzeł o zadanej wartości z drzewa
- - `void print()` - wypisującą wszystkie wartości dodane do drzewa w porządku leksykograficznym
- - `int contains(const char* text)` - zwracającą `1` jeśli wartość jest w drzewie, `0` w p.p.
- - `char* min()` - zwracającą *najmniejszy* leksykograficznie element drzewa
-
-Wyważanie drzewa: 2 pkt (AVL lub czerwono-czarne).
-
 # Miejsce zerowe  (3 punkty)
 Napisz program, który wczyta funkcję zmiennej `x` i znajdzie jej miejsce zerowe metodą bisekcji.
 
@@ -40,3 +18,30 @@ To jest znaleźć *x<sub>0</sub> &isin; [a, b]* takie, że
 Dodaj obsługę `^` - potęgowanie oraz jednoargumentowe: `sin`, `cos` (działające na radianach), np
 
 ```2^x + sin(x)```
+
+# Labirynt (3 punkty)
+Napisz program, który wczyta ze standardowego wejścia labirynt i wypisze sekwencje ruchów potrzebną do wyjścia z niego.
+
+Na wejściu program dostanie:
+ - liczby *m* i *n* - wymiary labiryntu
+ - *m* linii po *n* znaków - mapę labiryntu. Jednym z pól mapy będzie znak `0` - aktualna pozycja w labiryncie,
+ jednym będzie znak `X` - wyjście z labiryntu (może być w środku mapy!). Pozostałe znaki to albo spacje - pola przez
+ które można przejść, albo `#` - ściany.
+
+ Wyjście powinno zawierać ciąg znaków `N`, `E`, `W`, `S` oznaczających odpowiednio przejście w górę, w prawo, w lewo lub w dół.
+ **UWAGA** w niektórych przypadkach może być wiele poprawnych rozwiązań tego problemu.
+ Program może zwracać jakiekolwiek poprawne rozwiązanie. Jedynym warunkiem jest by żadne pole nie zostało odwiedzone wielokrotnie.
+
+ Np dla wejścia:
+
+ ```
+ #########
+ ###0   ##
+ ###### ##
+ ######X##
+ #########
+ ```
+ Wyjście powinno zawierać:
+ ```
+ EEENN
+ ```
