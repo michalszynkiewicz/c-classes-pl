@@ -14,7 +14,7 @@ https://pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/gprof
 Skompiluj przykład `01-...` z opdowiednią flagą i uruchom go w `gdb`.
 Ustaw pułapkę (breakpoint) na linii 11 i przejdź przez program sprawdzając w każdej linii jaka jest wartość zmiennej `result`.
 
-## 02
+## 02-03
 Korzystając z `gdb` znajdź błędy w programach `02-...` i `03-...`. Popraw programy.
 
 ## Nawiasowanie
