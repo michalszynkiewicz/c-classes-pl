@@ -10,17 +10,61 @@ Wikibooks o gprof:
 https://pl.wikibooks.org/wiki/Programowanie_w_systemie_UNIX/gprof
 
 # Zadania
+## 01
+Skompiluj przykład `01-...` z opdowiednią flagą i uruchom go w `gdb`.
+Ustaw pułapkę (breakpoint) na linii 11 i przejdź przez program sprawdzając w każdej linii jaka jest wartość zmiennej `result`.
 
-Zadania wykonaj na linuksie.
+## 02
+Korzystając z `gdb` znajdź błędy w programach `02-...` i `03-...`. Popraw programy.
 
-Jeśli masz jakieś błędne rozwiązanie zadania domowego lub zadania, które robiliśmy na zajęciach, spróbuj znaleźć błąd przy pomocy gdb.
+## Nawiasowanie
+Napisz program, który sprawdzi czy dane nawiasowanie jest poprawne (nawiasy otwierające odpowiadają zamykającym) i wypisze TAK lub NIE.
+Do nawiasowania będą używane 3 rodzaje nawiasów: '(', ')'; '[', ']'; '{', '}'
+
+Np:
+
+Wejście:
+
+```
+(([]){}()[])
+```
+
+Wyjście:
+```
+TAK
+```
 
 
-## gdb
+Wejście:
 
-Korzystając z gdb znajdź błędy w programach 00-06*.c z archiwum gdb.tgz (poczta usos).
+```
+([]){}()[])
+```
 
-## gprof
-Użyj gprof do wykonania profilu programu 10-prof-fib.c
+Wyjście:
+```
+NIE
+```
 
-Wykonaj je dla argumentu 44
+Wejście:
+
+```
+)({[]}())
+```
+
+Wyjście:
+```
+NIE
+```
+
+
+Wejście:
+
+```
+(])()(){}{}[([])]
+```
+
+Wyjście:
+```
+NIE
+```
