@@ -43,5 +43,5 @@ Na wejściu program dostanie:
  ```
  Wyjście powinno zawierać:
  ```
- EEENN
+ EEESS
  ```
